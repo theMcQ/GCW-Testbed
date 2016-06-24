@@ -1,3 +1,8 @@
+---
 applications:
-- name: node-hello-world
-  memory: 128M
+- memory: 64M
+  path: .
+  buildpack: "https://github.com/cloudfoundry-community/staticfile-buildpack.git"
+  host: GCW-Testbed
+  name: GCW-Testbed
+  instances: 1
