@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+#castle {
+	float: left;
+}
+
+#banner h1 {
+	font-family: "Courier New", Courier, mono;
+	font-size: 200%;
+	margin: 0;
+}
+#banner p {
+	margin: 0;
+}
+
+h2 {
+	margin: 0pt auto;
+	font-family: "Courier New", Courier, mono;
+	font-size: 150%;
+	line-height: 130%;
+}
+
+#date {
+	clear: both;
+	text-align: right;
+	background-color: #666;
+	color: white;
+	font-family: "Courier New", Courier, mono;
+	font-size: 80%;
+	padding: 3pt;
+}
+
+a {
+	color: #000;
+}
+
+
+a.navlink {
+	font-family: "Courier New", Courier, mono;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #666;
+	padding: 1pt 2pt;
+	text-decoration: none;
+}
+
+a.navlink:hover {
+	background-color: #CCC;
+	color: #000;
+}
+
+#navbar {
+	background-color: #666;
+	float: left;
+	padding: 0 1em;
+}
+
+#navbar ul { 
+	list-style-type: none; 
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 150%;
+	line-height: 180%;
+}
+
+#main {
+	margin-left: 13em;
+	margin-right: 1em;
+	padding: 1em;
+}
+
+#salutation {
+	margin: 1em;
+	text-align: right;
+}
